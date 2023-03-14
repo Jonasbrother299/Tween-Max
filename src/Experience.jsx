@@ -122,7 +122,7 @@ export default function Experience() {
       {/* <ambientLight intensity={0.000001}></ambientLight> */}
       {/* <Environment preset="night" blur={1} /> */}
       <hemisphereLight intensity={0.2} color="#ff6900" groundColor="#ff6900" />
-      <Environment files={"/satara_night_no_lamps_8k.hdr"}
+      <Environment files={"/satara_night_no_lamps_4k.hdr"}
         ground={{ height: 15, radius: 60, scale: 1000 }}
         frames={Infinity} resolution={4096} near={1} far={20} blur={0.1}
 
